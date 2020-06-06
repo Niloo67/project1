@@ -1,0 +1,21 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+
+
+         <h3>Search for a book!</h3>
+<form action="/search" method="GET">
+      <div class="col-4 mx-auto text-center">
+          <p> You need to be logged in to Search books</p>
+            <a class="btn btn-light m-2" href="{{ url_for('login')}}" role="button">Log In</a>
+            <a class="btn btn-light" href="{{ url_for('register')}}" role="button">Register</a>
+        </div>
+</form>
+    </form>
+
+{% endblock %}
