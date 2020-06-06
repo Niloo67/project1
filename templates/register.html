@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title%}
+    Register
+{% endblock%}
+
+{% block body %}
+  <section>
+
+    <div class="container pt-4 w-50" align="center">
+      <h3>Already have an account? <a href="/login">Login Here</a></h3>
+      <form action="/register" method="post">
+        <!-- Field for username -->
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>
+        </div>
+        <!-- Field for password. -->
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password"/>
+        </div>
+        <!-- Field for user to confirm password. -->
+        <div class="form-group">
+            <input type="password" class="form-control" name="password_confirm" placeholder="Confirm Password">
+        </div>
+      <button class="btn btn-primary" type="submit">Register</button>
+      </form>
+  </section>
+{% endblock %}

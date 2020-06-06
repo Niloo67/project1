@@ -1,0 +1,56 @@
+body {
+  background-color: #ccffe6;
+  display: flex;
+  flex-direction: column;
+}
+body div .form-group{
+  border-style: solid
+  border-radius: 5px;
+  border-color: #6699ff;
+  padding: 0.5rem;
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.card-body {
+    text-align: start;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 20px;
+}
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
