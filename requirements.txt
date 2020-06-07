@@ -4,5 +4,4 @@ psycopg2-binary
 SQLAlchemy
 flask_login
 flask_session
-sqlite3
 werkzeug
