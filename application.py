@@ -7,7 +7,7 @@ from flask_session import Session
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 # Allows to send HTTP/1.1 requests using Python
-import requests, sys
+import requests
 # password hashing
 from werkzeug.security import generate_password_hash, check_password_hash
 
